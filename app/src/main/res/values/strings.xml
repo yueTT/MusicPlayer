@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MusicPlayer</string>
+
+    <string name="Main_information">
+        Show all songs that in the phone
+    </string>
+
+    <string name="song01">
+        take me to the moon
+    </string>
+
+    <string name="main_tips">
+        touch the song to get to the playing activity
+    </string>
+
+    <string name="playing_tips">
+        touch the singer info to go to singerinfo activity
+    </string>
+
+    <string name="singer_info">
+        blablablablabalblablablablabla
+    </string>
+
+</resources>

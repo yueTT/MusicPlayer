@@ -1,0 +1,55 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="main_info">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/info_size</item>
+        <item name="android:layout_marginTop">@dimen/info_margin_top</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="main_songs">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/song_height</item>
+        <item name="android:layout_marginTop">@dimen/song_margin_top</item>
+        <item name="android:textSize">@dimen/song_size</item>
+        <item name="android:background">@color/song_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="tips">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tips_margin_top</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="singer_info_tips">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/tips_margin_top</item>
+    </style>
+
+    <style name="singer_info">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/song_color</item>
+        <item name="android:textSize">@dimen/song_size</item>
+    </style>
+
+    <style name="singer_info_details">
+        <item name="android:layout_width">@dimen/singer_info_width</item>
+        <item name="android:layout_height">@dimen/singer_info_height</item>
+        <item name="android:background">@color/song_color</item>
+    </style>
+
+</resources>
